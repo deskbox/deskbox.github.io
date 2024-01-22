@@ -1,0 +1,59 @@
+#chiffreDeBarre{
+    width:200px;
+    height:80px;
+}
+
+
+#AouB{
+    width:100px;
+    height:30px;
+}
+
+
+#vieDeNotreJoueur{
+    width:150px;
+    height:50px;
+}
+
+#vieDuRival{
+    width:150px;
+    height:50px;
+}
+
+.attack{
+    width:200px;
+    height:100px;
+    background-color: rgb(236, 176, 176);
+
+}
+
+.initiativeUpgrader{
+    width:50px;
+    height:50px;
+    background-color: aqua;
+}
+
+.initiativeDowngrader{
+    width:50px;
+    height:50px;
+    background-color: aqua;
+}
+
+.iniativePoints{
+    width:50px;
+    height:50px;
+    background-color: aqua;
+}
+
+#stateSwitch{
+    width:150px;
+    height:50px;
+    background-color: aqua;
+}
+
+#stateSwitchB{
+    width:150px;
+    height:50px;
+    background-color: aqua;
+}
+

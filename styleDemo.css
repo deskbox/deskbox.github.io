@@ -1,0 +1,10 @@
+#board{
+    position: relative;
+    background:#42424f;
+    height:600px;
+    width: 600px;
+    position:relative ;
+    margin-top: 75px;
+    margin-left: 400px;
+    border-radius: 10px;
+}

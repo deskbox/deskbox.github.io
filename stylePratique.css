@@ -1,0 +1,166 @@
+body {
+    overflow-x: hidden;
+}
+.item {
+    width:200px;
+    height:80px;
+    background-color: aquamarine;
+    box-shadow: 0px 10px 20px rgb(75, 71, 71);
+    border-radius: 10px;
+}
+
+.container {
+    position: relative;
+}
+
+.item-1 {
+    position:absolute ;
+   /* top: ; these two are completely useless as we already have bottom and left /*
+   /* right: ; */
+    left: -30px; /*since this is a neg value the item is half iden */
+    bottom:110px ;
+    z-index: -1; /*This position the item relative to the others in the z acces (profondeur de l'écran)*/
+}
+
+body{
+    background:rgb(207, 219, 213);
+}
+
+
+
+.thisIsATestOfFlex{
+    position: relative;
+    width:300px;
+    height: 400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: red;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+
+.thisIsATestOfFlex::before{
+    content:'';
+    position:absolute;
+    width: 180px;
+    height: 140%;
+    background-color: yellow;
+    box-shadow: 0 0 20px black;
+    animation: animate 4s linear infinite;
+}
+
+
+.thisIsATestOfFlex::after{
+    content:'';
+    position: absolute;
+    inset: 10px;
+    background-color: blue;
+    border-radius: 16px;
+}
+@keyframes animate{
+    0%{
+        transform:rotate(0deg);
+
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+:root{
+    --red: red;
+    --blue: blue;
+    --green: green;
+}
+.testP1{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    color: var(--red);
+    background-color: var(--green);
+    border: 10px solid var(--blue);
+    border-radius: 5px;
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    transition-delay:0.1s ;
+}
+.testP1:hover{
+    transform:translateY(-10px)
+}
+
+:root{
+    --red: red;
+    --blue: blue;
+    --green: green;
+}
+.testP2{
+    position: relative;
+    margin-top: 200px;
+    margin-left: 100px;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    color: var(--red);
+    background-color: var(--green);
+    border: 10px solid var(--blue);
+    border-radius: 5px;
+
+    transition:transform 0.3s ease 0s, background-color 0.3s, color 0.3s;
+
+}
+.testP2:hover{
+    transform:translateY(-10px);
+    background-color: var(--red); /* if we use an unassigned var instead of red like '--eugefvd' it wil show no clor effectively making the background disapear*/
+    color: var(--green)
+}
+@keyframes thisIsTheNameOfTheAnimation{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(500px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.testP3{
+    animation-name: thisIsTheNameOfTheAnimation;
+    animation-duration: 7s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+.testP4{
+    animation-name: party;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 100px;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    color: red;
+    background-color:white;
+    border: 10px solid black;
+    border-radius: 5px;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes party{
+    0%, 50%, 100%{
+        background-color: red;
+    }
+    25%, 75%{
+        background-color: yellow;
+    }
+}

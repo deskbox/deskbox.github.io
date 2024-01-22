@@ -1,0 +1,193 @@
+.boxTopLink{
+    box-shadow: 0px 10px 20px rgb(75, 71, 71);
+    background: white;
+    padding: 1rem;
+    overflow: auto;
+    margin: auto;
+    text-decoration: none;
+    color:black;
+}
+.boxTopLinkPrototype{
+    box-shadow:0 0 0 0.1px rgb(207, 219, 213) ;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 53px;
+    width: 150px;
+    background: #42424f;
+    padding: 1rem;
+    overflow: auto;
+    margin: auto;
+    text-decoration: none;
+    color:black;
+    font-size: 38px;
+}
+.boxTopLinkPrototypeIn{
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 55px;
+    width: 150px;
+    background: rgb(207, 219, 213);
+    padding: 1rem;
+    overflow: auto;
+    margin: auto;
+    text-decoration: none;
+    color:black;
+    font-size: 38px;
+}
+.boxTopLinkCharacIn{
+    position: absolute;
+    top:0px;
+    left:182px;
+    height: 54px;
+    width: 150px;
+    background: rgb(207, 219, 213);
+    padding: 1rem;
+    overflow: auto;
+    margin: auto;
+    text-decoration: none;
+    color:black;
+    font-size: 38px;
+}
+.boxTopLinkCharacOut{
+    box-shadow:0 0 0 0.1px rgb(207, 219, 213);
+    position: absolute;
+    top:0px;
+    left:182px;
+    height: 53px;
+    width: 150px;
+    background: #42424f;
+    padding: 1rem;
+    overflow: auto;
+    margin: auto;
+    text-decoration: none;
+    color:black;
+    font-size: 38px;
+}
+.boxTopLinkExplicOut{
+    box-shadow:0 0 0 0.1px rgb(207, 219, 213);
+    position: absolute;
+    top:0px;
+    left:364px;
+    height: 53px;
+    width: 150px;
+    background: #42424f;
+    padding: 1rem;
+    overflow: auto;
+    margin: auto;
+    text-decoration: none;
+    color:black;
+    font-size: 38px;
+}
+.boxTopLinkExplicIn{
+    position: absolute;
+    top:0px;
+    left:364px;
+    height: 54px;
+    width: 150px;
+    background: rgb(207, 219, 213);
+    padding: 1rem;
+    overflow: auto;
+    margin: auto;
+    text-decoration: none;
+    color:black;
+    font-size: 38px;
+}
+.boxTopLinkPratOut{
+    box-shadow:0 0 0 0.1px rgb(207, 219, 213);
+    position: absolute;
+    top:0px;
+    left:546px;
+    height: 53px;
+    width: 150px;
+    background: #42424f;
+    padding: 1rem;
+    overflow: auto;
+    margin: auto;
+    text-decoration: none;
+    color:black;
+    font-size: 38px;
+}
+.boxTopLinkPratIn{
+    position: absolute;
+    top:0px;
+    left:546px;
+    height: 54px;
+    width: 150px;
+    background: rgb(207, 219, 213);
+    padding: 1rem;
+    overflow: auto;
+    margin: auto;
+    text-decoration: none;
+    color:black;
+    font-size: 38px;
+}
+.boxTopLinkCartesOut{
+    box-shadow:0 0 0 0.1px rgb(207, 219, 213) ;
+    position: absolute;
+    top:0px;
+    left:728px;
+    height: 53px;
+    width: 150px;
+    background: #42424f;
+    padding: 1rem;
+    overflow: auto;
+    margin: auto;
+    text-decoration: none;
+    color:black;
+    font-size: 38px;
+}
+.boxTopLinkUiOut{
+    box-shadow:0 0 0 0.1px rgb(207, 219, 213) ;
+    position: absolute;
+    top:0px;
+    left:912px;
+    height: 53px;
+    width: 150px;
+    background: #42424f;
+    padding: 1rem;
+    overflow: auto;
+    margin: auto;
+    text-decoration: none;
+    color:black;
+    font-size: 38px;
+}
+.boxTopLinkCartesIn{
+    position: absolute;
+    top:0px;
+    left:728px;
+    height: 54px;
+    width: 150px;
+    background: rgb(207, 219, 213);
+    padding: 1rem;
+    overflow: auto;
+    margin: auto;
+    text-decoration: none;
+    color:black;
+    font-size: 38px;
+}
+body{
+    background:rgb(207, 219, 213);
+}
+
+#topstuff {
+    box-shadow:0 0 0 0.1px #1b1b1f;
+    position: absolute;
+    background: #42424f;
+    width: 1440px;
+    height: 85px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.drawAnimation{
+    box-shadow:0 0 0 0.1px #1b1b1f;
+    position: absolute;
+    background: #42424f;
+    width: 250px;
+    height: 50px;
+    top: 300px;
+    left: 300px;
+    border-radius: 10px;
+}
